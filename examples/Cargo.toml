@@ -1,0 +1,8 @@
+[package]
+name = "dialog-box"
+version = "0.1.0"
+authors = ["Pankaj Chaudhary <pankajchaudhary172@gmail.com>"]
+edition = "2019"
+
+[dependencies]
+fetch_configuration = "0.1.0"

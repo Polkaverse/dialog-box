@@ -1,0 +1,14 @@
+[package]
+name = "dialog-box"
+version = "0.1.0"
+authors = ["Pankaj Chaudhary <pankajchaudhary172@gmail.com>"]
+edition = "2018"
+
+description = "Library to use different dialog-box/popup in Rust"
+repository = "https://github.com/PankajChaudhary5/dialog-box.git"
+readme = "README"
+keywords = ["dialog-box", "dialog-box in rust", "popup", "popup in rust"]
+categories = ["Command-line"]
+license = "MIT"
+
+[dependencies]
