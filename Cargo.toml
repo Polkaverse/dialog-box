@@ -6,7 +6,7 @@ edition = "2018"
 
 description = "Library to use different dialog-box/popup in Rust"
 repository = "https://github.com/PankajChaudhary5/dialog-box.git"
-readme = "README"
+readme = "README.md"
 keywords = ["dialog-box", "dialog-box in rust", "popup", "popup in rust"]
 categories = ["Command-line"]
 license = "MIT"
