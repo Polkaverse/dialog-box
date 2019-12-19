@@ -3,9 +3,6 @@
   <a href="https://travis-ci.org/pankajchaudhary5/dialog-box">
     <img alt="Build Status" src="https://travis-ci.org/PankajChaudhary5/dialog-box.svg?branch=master">
   </a>
-  <a href="https://crates.io/crates/dialog-box">
-    <img alt="Latest version" src="https://img.shields.io/crates/v/dialog-box.svg">
-  </a>
   <img alt="MIT licensed" src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img alt="Stability stable" src="https://img.shields.io/badge/stability-stable-green.svg">
 </p>
