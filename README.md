@@ -22,7 +22,7 @@ A Rust Crate/Library by which we can use different Dialog-box in rust program to
 Add dependency in Cargo.toml
 ```sh
 [dependencies]
-dialog_box = "0.1.0"
+dialog-box = "0.1.0"
 ```
 Example to use dialog-box crate
 ```sh

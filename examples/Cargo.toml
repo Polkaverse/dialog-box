@@ -2,7 +2,7 @@
 name = "dialog-box"
 version = "0.1.0"
 authors = ["Pankaj Chaudhary <pankajchaudhary172@gmail.com>"]
-edition = "2019"
+edition = "2018"
 
 [dependencies]
-dialog_box = "0.1.0"
+dialog-box = "0.1.0"
