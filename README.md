@@ -10,7 +10,13 @@
   <img alt="Stability stable" src="https://img.shields.io/badge/stability-stable-green.svg">
 </p>
 
-A Rust Crate/Library which enables us to display different Dialog-box in rust program like warning, information, error. We can also take input from various dialog-box like calender, question, file path.
+A Rust Crate/Library by which we can use different Dialog-box in rust program to display warning, information, or error. We can also take input from various dialog-box like calender, question, file path.
+
+![Screenshot](calender.png) 
+
+![Screenshot](warning.png)
+![Screenshot](question.png)
+![Screenshot](number.png)
 
 ## Use
 Add dependency in Cargo.toml
@@ -21,7 +27,7 @@ dialog_box = "0.1.0"
 Example to use dialog-box crate
 ```sh
 extern crate dialog_box;
-use dialog_box::{calender, information, question, progress, error, warning, file_path, pick_number};
+use dialog_box::{calender, warning};
 
 fn main() {
     println!("{}", calender("Select a Date"));

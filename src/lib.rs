@@ -6,6 +6,7 @@
  */
 use std::process::Command;
 
+/// The calender function can give the dialog-box/popup on the screen by which we can put the desired output as per our requirement. This function can return the input value.
 pub fn calender(title: &str) -> String {
     match Command::new("zenity")
         .args(&["--calendar", "--text=Pick a day" , "--title", title])
@@ -15,6 +16,7 @@ pub fn calender(title: &str) -> String {
     }
 }
 
+/// The information function can display the dialog-box/popup on the screen with the given argument.
 pub fn information(info: &str ) -> String {
     match Command::new("zenity")
         .args(&["--info", "--text", info])
@@ -24,6 +26,7 @@ pub fn information(info: &str ) -> String {
     }
 }
 
+/// The question function can give the dialog-box/popup on the screen by which we can put the desired answer for that question. This function can return the answer.
 pub fn question(question: &str ) -> String {
     match Command::new("zenity")
         .args(&["--entry", "--text", question])
@@ -33,6 +36,7 @@ pub fn question(question: &str ) -> String {
     }
 }
 
+/// The progress function can display the progress dialog-box/popup on the screen.
 pub fn progress() -> String {
     match Command::new("zenity")
         .args(&["--progress", "--pulsate"])
@@ -42,6 +46,7 @@ pub fn progress() -> String {
     }
 }
 
+/// The error function can display the error dialog-box/popup on the screen with the given error message.
 pub fn error(error_message: &str) -> String {
     match Command::new("zenity")
         .args(&["--error", "--text", error_message])
@@ -51,6 +56,7 @@ pub fn error(error_message: &str) -> String {
     }
 }
 
+/// The warning function can display the warning dialog-box/popup on the screen with the given warning message.
 pub fn warning(message: &str) -> String {
     match Command::new("zenity")
         .args(&["--warning", "--text", message])
@@ -60,6 +66,7 @@ pub fn warning(message: &str) -> String {
     }
 }
 
+/// The file_path function can give the dialog-box/popup on the screen by which we can path of our directory. This function can return the entered path of directory.
 pub fn file_path() -> String {
     match Command::new("zenity")
         .args(&["--file-selection"])
@@ -69,6 +76,7 @@ pub fn file_path() -> String {
     }
 }
 
+/// The pick_number function can give the dialog-box/popup on the screen by which we can choose any number between 1 to 100. This function can return that number.
 pub fn pick_number(title: &str) -> String {
     match Command::new("zenity")
         .args(&["--scale", "--text", title])
